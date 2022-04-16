@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final javascript Project</title>
+    <script src="https://kit.fontawesome.com/eba020c680.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="photos/workout.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+</head>
+<body class="hederistvis">
+    <header class="header-ragaca">
+        <div class="wraper-flex">
+<a class="logo" href="index.html">
+            <img src="photos/logo.png" alt="logo">
+        </a>
+        
+        <nav class="navigation" id="navigationBlock">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class= "nav-a" href="index.html"> Home </a>
+                </li>
+                <li class="nav-li"> 
+                     <a class= "nav-a" href="about.html"> About Us </a>
+                </li>
+                <li class="nav-li">
+                    <a class= "nav-a" href="shop.html"> Shop </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a active" href="contact.html">Contact Us</a>    
+                </li>
+            </ul>
+            
+        </nav>
+        <div class="headder-wraper">
+            <div class="container">
+                <nav class="header-navigation">
+    
+                    <div class="toggle-menu" id="toggleButton">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+    
+                    <ul class="nav-list" id="navigation-ul">
+                        <li class="nav-li">
+                            <a class= "nav-a" href="index.html"> Home </a>
+                        </li>
+                        <li class="nav-li"> 
+                             <a class= "nav-a" href="about.html"> About Us </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class= "nav-a" href="shop.html"> Shop </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a active" href="contact.html">Contact Us</a>    
+                        </li>
+                    </ul>
+    
+                </nav>
+        </div>
+        </div>
+        </div>
+    </header>
+
+    
+    <section>
+        <div class="contact-cover">
+        <div class="box">
+
+<!-- aqedan forma iwyeba -->
+        
+    <form action="#" method="POST" class="form-wraper" id="registration"> 
+        <div class="left-block">
+        <div class="form1">
+            <label for="message"> </label>
+            <textarea class="textarea-element" name="description" id="message" placeholder="Description"></textarea>
+            </div>
+        </div>
+        <div class="right-block">
+
+<!-- aqedan iwyeba saxeli meili da ragacebi -->
+<div class="form">
+    <label for="namelname"> name/lastname </label>
+    <input class="input-element" type="text" name="username" id="namelname" placeholder="name/lastname" >
+    <div class="error-text" id="error_username"></div>
+</div>
+
+<div class="form">
+    <label for="passname"> pass </label>
+    <input class="input-element" type="password" name="password" id="passname" placeholder="password" >
+    <i id="toggle-icon" class="fa-solid fa-eye"></i>
+    <div class="error-text" id="error_password"></div>
+</div>
+
+        
+        <div class="form">
+            <label for="passname2"> pass2 </label>
+            <input class="input-element" type="password" name="passw" id="passname2" placeholder="repeat password" >
+            <i id="toggle-icon2" class="fa-solid fa-eye"></i>
+            <div class="error-text" id="error_passwi"></div>
+        </div>
+
+        <div class="form">
+            <label for="myemail"> email:</label>
+            <input class="input-element" type="email" name="mail" id="myemail" placeholder="enter email" >
+            <div class="error-text" id="error_mail"></div>
+        </div>
+
+
+<div class="vizuali">
+    <input type="radio" class="asakii" name="age" id="ageuser">
+<label for="ageuser"> 18 - 30</label>
+
+
+<input type="radio" class="asakii" name="age" id="ageuser2">
+<label for="ageuser2"> 31 - 45</label>
+<div class="error-text" id="error_age"></div>
+</div>
+
+<div class="vizuali">
+<input type="checkbox" name="notagree" id="agreecheckbox"> 
+<label for="agreecheckbox"> agree terms </label>
+<div class="error-text" id="error_notagree"></div>
+</div>
+
+
+<button class="knopka" type="submit" > send </button>
+</div>
+
+</form>
+</div>
+</div>
+</section>
+
+<section>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/?hl=en"><i class="icon ion-social-instagram"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="aebi" href="#">Services</a></li>
+                <li class="list-inline-item"><a class="aebi" href="#">Terms</a></li>
+                <li class="list-inline-item"><a class="aebi" href="#">Vacancy</a></li>
+                <li class="list-inline-item"><a class="aebi" href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a class="aebi" href="#">Stats</a></li>
+            </ul>
+            <p class="copyright">Train Hard © 2021</p>
+        </footer>
+    </div>
+    
+</section>
+<script src="java.js"></script>
+<!-- <script src="script.js"></script> -->
+</body>
+</html>
